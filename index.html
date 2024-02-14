@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="everything">
+        <div class="header">
+            <h1>Library</h1>
+        </div>
+        <div class="cardContainer">
+            <!-- card 1 -->
+            <div class="card">
+                <p>Title: Lorem ipsum</p>
+                <p>Author: Lorem ipsum</p>
+                <p>Pages: 424</p>
+                <p>Read: No</p>
+            </div>
+            <!-- card 2 -->
+            <div class="card">
+                <p>Title: Lorem ipsum</p>
+                <p>Author: Lorem ipsum</p>
+                <p>Pages: 424</p>
+                <p>Read: No</p>
+            </div>
+        </div>
+        <div class="formContainer">
+            <form action="index.html">
+                <label for="title">Title:</label><br>
+                <input type="text" id="title" name="title"><br>
+                <label for="author">Author:</label><br>
+                <input type="text" id="author" name="author"><br>
+                <label for="pages">Number of pages:</label><br>
+                <input type="number" id="pages" name="pages"><br>
+                <label for="read">Have you read this book?</label><br>
+                    <input type="radio" id="read" name="read" value="Yes">
+                    <label for="Yes" id="read">Yes</label>
+                <br>
+                    <input type="radio" id="read" name="read" value="No">
+                    <label for="No" id="read">No</label>
+                <br>
+                <input type="submit" id="submit" value="Add new book">
+            </form>
+        </div>
+    </div>
+    
+</body>
+<script src="code.js"></script>
+</html>
