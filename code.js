@@ -90,7 +90,7 @@ const displayCards = () => {
         btnDiv.classList.add('btnDiv')
         newCard.appendChild(btnDiv)
         const statusBtn = document.createElement('button')
-        statusBtn.textContent = 'Change Status'
+        statusBtn.textContent = 'Toggle Status'
         statusBtn.classList.add('status')
         btnDiv.appendChild(statusBtn);
         statusBtn.addEventListener('click', () => {
@@ -104,7 +104,7 @@ const displayCards = () => {
             // Remove button
         var rmvBtn = document.createElement('button')
         rmvBtn.classList.add('rmvBtn')
-        rmvBtn.textContent = 'X'
+        rmvBtn.textContent = 'x'
         btnDiv.appendChild(rmvBtn)
 
         rmvBtn.addEventListener('click', () => {
